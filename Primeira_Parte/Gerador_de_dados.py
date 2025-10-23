@@ -1,8 +1,11 @@
-from faker import *
+from faker import Faker
 import random
+from pathlib import Path
 
-fake = Faker('pt-br')
-arquivo = "dados.dat"
+script_dir = Path(__file__).resolve().parent
+arquivo = script_dir / "dados.dat"
+
+fake = Faker('pt_BR')
 areas = ["Engenharia", "Ciência", "Gestão", "Tecnologia", "Design", "Administração", "Saúde"]
 especialidades = ["Software", "Dados", "Sistemas", "Ambiental", "Marketing", "Financeira", "Industrial"]
 
