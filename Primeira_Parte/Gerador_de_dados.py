@@ -6,7 +6,7 @@ script_dir = Path(__file__).resolve().parent
 arquivo = script_dir / "dados.dat"
 
 fake = Faker('pt_BR')
-areas = ["Engenharia", "Ciência", "Gestão", "Tecnologia", "Design", "Administração", "Saúde"]
+areas = ["Engenharia", "Ciência", "Gestão", "Tecnologia", "Design", "Administração"]
 especialidades = ["Software", "Dados", "Sistemas", "Ambiental", "Marketing", "Financeira", "Industrial"]
 
 def gerar_curso():
