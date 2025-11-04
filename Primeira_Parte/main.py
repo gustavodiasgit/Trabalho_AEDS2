@@ -48,4 +48,4 @@ if bloco:
         out.writelines(bloco)
     print(f"✅ Bloco {contador_arquivos} salvo (último): {nome_saida.name} ({bytes_lidos/1024/1024:.2f} MB)")
 
-print("🚀 Processamento concluído com sucesso!")
+print("Processamento concluído")
